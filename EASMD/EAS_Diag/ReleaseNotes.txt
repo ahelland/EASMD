@@ -1,0 +1,57 @@
+﻿Version 2.0 RTW
+- GitHub here we go! Source is open! That deserves the major version upgrade.
+- License is now GPLv2.
+- Replaced the WBXML dll with a version from a different code base (easweb.codeplex.com). Basically the same, but with some bugs squashed.
+- Retargeted the solution to use .Net 4.5.1
+- Fixed a typo initializing the Exchange Server version list ("14..1" should be "14.1")
+- Resized the input/output boxes on the base64 tab. (Increased the width.)
+- Disabled/hid Base64 option from the output box.
+- Fixed a couple of texts.
+- Added link to GitHub repo.
+
+Version 1.71 RTW:
+- Changed Exchange 15 option to Exchange 2013 (Final name). Protocol level stays at 14.1.
+
+Version 1.7 RTW:
+- Added support for Exchange 15 (currently in Beta). Note that currently there is no new protocol level so choosing Exchange 15 will be the same as choosing 14.1.
+- Moved the "Autodiscover" and "WBXML Utility" tabs to the left (assuming they will be more frequently used options).
+
+Version 1.6 RTW:
+- Added WBXML tab for inputting raw WBXML (and corresponding output).
+- Added WBXML as an output option for the "Full test".
+- Changed default output to WBXML.
+- Changed 'BackColor' property to "Window" for all output Windows.
+
+Version 1.4 RTW:
+- Added Client Certificate Password text box (for pfx-files).
+- Added ActiveSync Autodiscover tests. (Please note that SRV record support is not added yet, and thus disabled in the UI.)
+- Added scrollbars to output windows.
+- Added possibility to use both domain\user and user@domain.com (leave "Domain" textbox empty to use the latter).
+- Added support for parsing out the redirect on a HTTP 451.
+- Added handling of HTTP 302.
+- Added explanation for HTTP 502.
+- Added explanation for HTTP 504.
+- Disabled "Hex" view option on Main tab. (Code still present, but not sure if this is actually useful, so it's not active in the UI.)
+- Re-designed how HTTP status codes are shown in the output view. (Parses out the individual HTTP codes for errors.)
+- Changed default protocol version to 12.1 (Exchange 2007 SPx).
+- Major code refactoring.
+- Fixed minor bugs.
+- Minor changes in the UI.
+- Added about tab. (Easier to identify the version you're running.)
+
+Version 1.2 RTW:
+- Added support for testing IRM through adding "Get Policies" feature that will fetch IRM policies from Exchange.
+- Added support for handling HTTP 451 Redirect.
+- Added "Word Wrap" as an option for readability.
+
+Version 1.0 RTW:
+- Added support for Device Information (required by Exchange 2010 SP1). Will only work with E2K10SP1, and provisionable devices.
+- Restructured the provisioning mechanism - should work for Exchange 2007 properly now.
+- Tested working on Exchange 2007 RTM, Exchange 2007 SP1, SP2, SP3 and Exchange 2010 RTM, Exchange 2010 SP1.
+
+Version 0.9 Beta:
+- Restructured code, and moved code into methods.
+- Added support for client certificates.
+
+Version 0.8 Beta:
+- Initial release
