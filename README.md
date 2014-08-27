@@ -12,6 +12,5 @@ This Visual Studio solution consists of two projects:
 	- The library handling conversion to/from WBXML, and the "back-end" of the protocol.
 
 For background info on how it works: 
-<http://mobilitydojo.net/2010/03/17/digging-into-the-exchange-activesync-protocol/>  
-<http://mobilitydojo.net/2010/03/30/rolling-your-own-exchange-activesync-client/>
-
+[http://mobilitydojo.net/2010/03/17/digging-into-the-exchange-activesync-protocol](http://mobilitydojo.net/2010/03/17/digging-into-the-exchange-activesync-protocol/ "http://mobilitydojo.net/2010/03/17/digging-into-the-exchange-activesync-protocol")  
+[http://mobilitydojo.net/2010/03/30/rolling-your-own-exchange-activesync-client](http://mobilitydojo.net/2010/03/30/rolling-your-own-exchange-activesync-client "http://mobilitydojo.net/2010/03/30/rolling-your-own-exchange-activesync-client")
